@@ -30,4 +30,6 @@ function increaseCharacter(str) {
     return newStr.join('');
 }
 
-console.log(increaseCharacterArrFn("lazyinterns"))
+
+module.exports = {increaseCharacter, increaseCharacterArrFn}
+
