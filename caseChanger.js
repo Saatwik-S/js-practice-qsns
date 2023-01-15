@@ -25,4 +25,8 @@ function caseChanger(str) {
 }
 
 
-console.log(caseChangerArrFn("MeRRy hAD a LITTle lAMp"))
+module.exports = {caseChanger, caseChangerArrFn}
+
+
+    
+
