@@ -23,5 +23,5 @@ function largestEvenNumber(arr) {
 
 }
 
-console.log(largestEvenNumber([1,2,3,4,5]));
-console.log(largestEvenNumberArrowFn([1,3,5,7]))
+module.exports = {largestEvenNumber, largestEvenNumberArrowFn}
+
