@@ -1,3 +1,5 @@
+const { moduleExpression } = require("@babel/types");
+
 const vowels = ['a', 'e', 'i', 'o', 'u'];
 const countVowelsArrFn = (str) => {
     let counter = 0;
@@ -14,4 +16,15 @@ function countVowels(str) {
     return counter;
 }
 
-console.log(countVowelsArrFn("codeacademy"))
+
+module.exports = {countVowels, countVowelsArrFn}
+
+const testCases = ['MerRy WeAtHer','dInNer BufFet', 'BISleri', 'mAcBOOk aIR', 'tAbLe Lamp', 'lApTop', 'comPliMenTaRY', 'waTer BOtTle']
+
+
+testCases.forEach((e, i ) => {
+    console.log(`test('Vowel Count test ${i+1}', () => {
+        expect(countVowels('${e}')).toBe(${countVowels(e)});
+    })`)
+}
+    )
