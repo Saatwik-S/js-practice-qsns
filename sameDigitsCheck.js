@@ -23,8 +23,15 @@ function sameDigitsCheck (num) {
      )
      return res == false ? false : true; 
  
- }
  
+    }
+ 
+    module.exports = {sameDigitsCheck, sameDigitsCheckArrFn}
 
-console.log(sameDigitsCheckArrFn(22))
-console.log(sameDigitsCheck(23))
+//     const testCases = [22, 123, 4444, 989, 0903, 555, 222, 435];
+
+//  testCases.forEach((e, i) => {
+//     console.log(`test('Same Digit Test test ${i+1}', () => {
+//         expect(sameDigitsCheck(${e})).toBe(${sameDigitsCheck(e)});
+//     })`)
+// })
