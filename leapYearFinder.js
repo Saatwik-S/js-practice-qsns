@@ -7,5 +7,6 @@ function isALeapYear(year) {
 
 }
 
-console.log(isALeapYear(2000))
-console.log(isALeapYear(2019))
+module.exports = {isALeapYear, isALeapYearArrFn}
+
+
