@@ -10,4 +10,9 @@ function longestString(arr) {
     return arr.reduce((prev, curr) => prev.length > curr.length ? prev : curr);
 }
 
-console.log(longestStringArrFn(["we", "love", "code", "academy"]))
+module.exports = {longestString, longestStringArrFn}
+
+
+
+
+
