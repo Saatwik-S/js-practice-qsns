@@ -7,9 +7,9 @@ const caseChangerArrFn = (str) => {
     str.split('').forEach((char, idx) =>
         newStr[idx] = char == char.toLowerCase() ? char.toUpperCase() : char.toLowerCase()
 
-    )
+    );
     return newStr.join('');
-}
+};
 
 /**
  * 
@@ -20,12 +20,12 @@ function caseChanger(str) {
     str.split('').forEach((char, idx) =>
         newStr[idx] = char == char.toLowerCase() ? char.toUpperCase() : char.toLowerCase()
 
-    )
+    );
     return newStr.join('');
 }
 
 
-module.exports = {caseChanger, caseChangerArrFn}
+module.exports = {caseChanger, caseChangerArrFn};
 
 
     

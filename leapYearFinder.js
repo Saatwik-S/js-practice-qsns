@@ -7,6 +7,6 @@ function isALeapYear(year) {
 
 }
 
-module.exports = {isALeapYear, isALeapYearArrFn}
+module.exports = {isALeapYear, isALeapYearArrFn};
 
 

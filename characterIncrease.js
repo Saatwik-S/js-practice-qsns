@@ -9,10 +9,10 @@ const increaseCharacterArrFn = (str) => {
         if (newStr[i] === 'z') newStr[i] = 'a';
         else if (newStr[i] === 'Z') newStr[i] = 'A';
         else
-        newStr[i] = String.fromCharCode(newStr[i].charCodeAt(0) + 1);
-    })
+            newStr[i] = String.fromCharCode(newStr[i].charCodeAt(0) + 1);
+    });
     return newStr.join('');
-}
+};
 
 /**
  * 
@@ -25,11 +25,11 @@ function increaseCharacter(str) {
         if (newStr[i] === 'z') newStr[i] = 'a';
         else if (newStr[i] === 'Z') newStr[i] = 'A';
         else
-        newStr[i] = String.fromCharCode(newStr[i].charCodeAt(0) + 1);
-    })
+            newStr[i] = String.fromCharCode(newStr[i].charCodeAt(0) + 1);
+    });
     return newStr.join('');
 }
 
 
-module.exports = {increaseCharacter, increaseCharacterArrFn}
+module.exports = {increaseCharacter, increaseCharacterArrFn};
 

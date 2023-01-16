@@ -10,6 +10,6 @@ const concatStringsArrFn = (arr) => arr.join('').substring(1);
  */
 function concatStrings(arr) {return arr.join('').substring(1);}
 
-module.exports = {concatStrings, concatStringsArrFn}
+module.exports = {concatStrings, concatStringsArrFn};
 
 

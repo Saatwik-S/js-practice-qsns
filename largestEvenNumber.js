@@ -6,9 +6,9 @@ const largestEvenNumberArrowFn = (arr) => {
     let largestEvenNumber = -1;
     arr.forEach(e => {
         largestEvenNumber = e % 2 == 0 && e > largestEvenNumber ? e : largestEvenNumber;
-    })
+    });
     return largestEvenNumber;
-}
+};
 
 /**
  * 
@@ -18,10 +18,10 @@ function largestEvenNumber(arr) {
     let largestEvenNumber = -1;
     arr.forEach(e => {
         largestEvenNumber = e % 2 == 0 && e > largestEvenNumber ? e : largestEvenNumber;
-    })
+    });
     return largestEvenNumber;
 
 }
 
-module.exports = {largestEvenNumber, largestEvenNumberArrowFn}
+module.exports = {largestEvenNumber, largestEvenNumberArrowFn};
 
