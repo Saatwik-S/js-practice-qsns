@@ -18,6 +18,3 @@ function countVowels(str) {
 
 
 module.exports = {countVowels, countVowelsArrFn}
-
-const testCases = ['MerRy WeAtHer','dInNer BufFet', 'BISleri', 'mAcBOOk aIR', 'tAbLe Lamp', 'lApTop', 'comPliMenTaRY', 'waTer BOtTle']
-
