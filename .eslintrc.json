@@ -6,7 +6,10 @@
     },
     "extends": "eslint:recommended",
     "overrides": [
+        
     ],
+    "plugins": ["jest"],
+    
     "parserOptions": {
         "ecmaVersion": "latest"
     },
