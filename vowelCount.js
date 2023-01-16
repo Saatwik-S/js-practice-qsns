@@ -21,10 +21,3 @@ module.exports = {countVowels, countVowelsArrFn}
 
 const testCases = ['MerRy WeAtHer','dInNer BufFet', 'BISleri', 'mAcBOOk aIR', 'tAbLe Lamp', 'lApTop', 'comPliMenTaRY', 'waTer BOtTle']
 
-
-testCases.forEach((e, i ) => {
-    console.log(`test('Vowel Count test ${i+1}', () => {
-        expect(countVowels('${e}')).toBe(${countVowels(e)});
-    })`)
-}
-    )
